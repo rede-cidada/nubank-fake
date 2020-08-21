@@ -1,0 +1,93 @@
+
+.meuRoxinho{
+    width: 100vw;
+
+} 
+        .meuRoxinho .textosMeuRoxinho-area{
+            width: 100%;
+            padding: 64px 28px 64px 28px;
+            font-weight: 700;
+        }
+
+                .meuRoxinho .textosMeuRoxinho-area .paragrafoMeuRoxinho{
+                    width: 100%;
+                    max-width: 275px;
+                    font-size:28px;
+                    margin-bottom: 32px;
+                }
+
+                    .meuRoxinho .textosMeuRoxinho-area .paragrafoMeuRoxinho .textoRoxo{
+                        color: var(--cor-primaria);
+                        cursor: pointer;
+                    }
+
+                    .meuRoxinho .textosMeuRoxinho-area .paragrafoMeuRoxinho .textoRoxo:hover{
+                        text-decoration: underline;
+                    }
+
+            .meuRoxinho .textosMeuRoxinho-area .saibaMais{
+                font-size: 18px;
+                color: var(--cor-primaria);
+                position: relative;
+            }
+
+            .meuRoxinho .textosMeuRoxinho-area .saibaMais::after{
+                content: "";
+                position: absolute;
+                bottom:0;
+                right: 0;
+                left:0;
+                border: 1px solid var(--cor-primaria);
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: 0.3s;
+            }
+
+            .meuRoxinho .textosMeuRoxinho-area .saibaMais:hover::after{
+                transform: scaleX(1);
+            }
+
+    .meuRoxinho .fotoRoxinho-area{
+        display: flex;
+        justify-content: center;
+    }
+
+        .meuRoxinho .fotoRoxinho-area .fotoRoxinho{
+            width:229px;
+             height:500px;
+        }
+
+
+@media(min-width:840px){
+    .meuRoxinho{
+        height: 100vh;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        padding: 64px 64px 0 64px;
+    }   
+
+        .meuRoxinho .textosMeuRoxinho-area{
+            padding: 0;
+        }
+        
+            .meuRoxinho .textosMeuRoxinho-area .paragrafoMeuRoxinho{
+                width: 100%;
+                max-width: 480px;
+                font-size:48px;
+                margin-bottom: 32px;
+            }
+
+        .meuRoxinho .fotoRoxinho-area{
+        width: 50%;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        }
+            
+            .meuRoxinho .fotoRoxinho-area .fotoRoxinho{
+                position: absolute;
+                bottom: 0;
+            }
+    
+}

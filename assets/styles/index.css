@@ -1,3 +1,17 @@
+@import url('../styles/meuRoxinho.css');
+:root{
+  --cor-primaria:rgb(138, 5, 190);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .cartaoNubank {
     width: 100vw;
     height: 100vh;
@@ -68,7 +82,7 @@
     margin-right: 30px;
   }
   p {
-    padding-right: 200px;
+    /* padding-right: 200px; */
     font-size: 16px;
   }
   a {
