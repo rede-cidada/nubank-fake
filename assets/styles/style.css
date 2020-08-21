@@ -1,0 +1,123 @@
+@import url(//db.onlinewebfonts.com/c/373efd69166d31c2b5052a505527acbf?family=Graphik-Medium);
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 5%;
+}
+
+@media (max-width: 810px) {
+    .container-all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3% 0 0 7%; 
+        letter-spacing: 0.4em;
+    }
+}
+
+.text {
+    color: rgb(17, 17, 17);   
+    letter-spacing: -0.03em;
+    line-height: 1.18;
+    margin-right: 8%;
+    margin-left: 0.5%;
+    margin-top: 2.5%;
+    padding-right: 8.6%;
+}
+
+.title, .paragraph {
+    font-family: Graphik-Medium, sans-serif;
+    font-size: 2.9rem;  
+    font-weight: 510; 
+}
+
+@media (max-width: 810px) {
+    .title, .paragraph {
+        font-size: 1.6rem;
+    }
+}
+
+.link {
+    position: absolute;
+    text-decoration: none;
+    font-family: Graphik-Medium, sans-serif;
+    font-size: 1.1em;
+    font-weight: 510; 
+    color: rgb(138, 5, 190);
+    padding-bottom: 5%;   
+    margin-top: 2.4%;
+}
+
+@media (max-width: 810px) {
+    .link {
+        padding-top: 1.5em;
+    }
+}
+
+.link:hover::after { 
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(138, 5, 190);
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.img-container {
+    margin: 6% 18.8% 0 0;
+}
+
+@media (max-width: 810px) {
+    .img-container {
+        padding: 5em 0 2em 0;
+    }
+}
+
+.img-desktop {
+    display: block;
+    width: auto;
+    max-height: calc(-20em + 100vh);
+    margin: 0px auto;
+}
+
+.img-mobile {
+    display: none;
+}
+
+@media (max-width: 810px) {
+    .img-mobile {
+        display: block;
+
+        max-width: 100%; 
+        max-height: calc(100vh - 20em);
+    }
+    .img-desktop {
+        display: none;
+    }
+}
+
+.img-icon {
+    width: 0.7em;
+    margin-left: 0.3em;   
+}
