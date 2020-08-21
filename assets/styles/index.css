@@ -1,0 +1,78 @@
+.cartaoNubank {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  #cc {
+    color: #ba05be;
+    font-size: 40px;
+  }
+  .texto {
+    font-size: 40px;
+    width: 40%;
+    height: 90%;
+    text-align: justify;
+    margin: auto;
+    padding: 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+  }
+  #saibamais {
+    color: #ba05be;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-left: 220px;
+    margin-right: 40px;
+  }
+  
+  #img {
+    width: 230px;
+    height: 420px;
+    margin-top: 60px;
+  }
+  
+
+
+#cartaoInternacional {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f5f5f5;
+  }
+  #imgCartInternacional {
+    width: 50%vw;
+    height: 50%vh;
+    margin: auto;
+  }
+  #CI {
+    font-size: 40px;
+    padding-right: 90px;
+  }
+  #textoCard {
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 30px;
+  }
+  p {
+    padding-right: 200px;
+    font-size: 16px;
+  }
+  a {
+    color: #ba05be;
+    text-decoration: none;
+  }
+  
