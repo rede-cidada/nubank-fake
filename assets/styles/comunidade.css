@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: url("../img/comunidade.webp") no-repeat;
+    background-size: cover;
+    font-size: 2em;
+    color: white;
+    
+  }
+  
+  .title {
+    margin: 290px 0px 0px 100px;
+  }
+  
+  .subtitle {
+    font-size: 3rem;
+    margin:30px 0 32px 100px;
+    width: 30%;
+    font-weight: bold;
+  }
+  
+  .test {
+    font-size:1.3rem;
+    color: white;
+    padding-left: 100px; 
+    text-decoration: none;
+  }
+  .test:hover{
+    text-decoration: underline;
+  }
+
+  svg {
+    color: white; 
+    transform:rotate(-45deg); 
+    margin-left:0.4rem;
+  }
