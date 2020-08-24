@@ -1,0 +1,267 @@
+:root {
+    --primary-color: #8A05BE;
+    --first-hover-color: rgba(171, 41, 223, 0.2);
+    --real-color: rgb(31, 127, 69);
+}
+
+body {
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:rgb(245, 245, 245);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    color: #111111;
+}
+
+.paget {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    align-items: flex-start;
+    padding: 64px 32px;
+}
+
+.rendemais {
+    color: rgb(17, 17, 17);
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+}
+
+#rendemaisTitle {
+    font-size: 28px;
+}
+
+.rendemaisDesc {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.compare {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    align-items: flex-start;
+    padding: 0px 32px 96px;
+}
+
+.title-PageC {
+    font-size: 28px;
+}
+
+.subtitle-PageC {
+    font-size: 28px;
+}
+
+.paragraph-PageC {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+.button-PageC {
+    border: none;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: rgb(44, 44, 44);
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: -30px;
+    margin-bottom: 20px;
+
+    
+}
+
+.button-PageC:hover {
+    background-color: var(--first-hover-color);
+}
+
+.divRange {
+    width: 100%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 150%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: var(--primary-color);
+    border-radius: 25px;
+    border: 0px solid #000101;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: var(--primary-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5.5px;
+  }
+
+.copinho {
+    padding: 0px 32px 64px;
+}
+
+.copinho-text {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+    background-color: white;
+    position: relative;
+    padding: 96px 32px 64px;
+}
+
+.copinho-img {
+    position: absolute;
+    width: 120px;
+    left: calc(50% - 60px);
+    top: -60px;
+}
+
+.copinho-Nu {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+.copinho-Real {
+    color: var(--real-color);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.16;
+    margin: 40px 0px 0px;
+}
+
+.paragraph-PageCsem {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.paragraph-PageCsemFirst {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.paragraph-PageClast {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+
+@media (min-width: 850px) {
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .paget {
+        padding: 64px 0px;
+    }
+
+    #rendemaisTitle {
+        font-size: 48px;
+    }
+
+    .rendemaisDesc {
+        font-size: 24px;
+        width: 95%;
+        max-width: 480px;
+    }
+
+    .compare {
+        width: 50%;
+        padding: 0;
+    }
+
+    input[type=range] {
+        width: 400px;
+        padding-right: 5px;
+    }
+
+    .pageC {
+        display: flex;
+    }
+
+    .compareText {
+        padding-right: 32px;
+        margin-right: 5px;
+    }
+    
+    .title-PageC {
+        font-size: 48px;
+    }
+    
+    .subtitle-PageC {
+        font-size: 48px;
+        margin: 30px 0px;
+    }
+
+    .paragraph-PageC {
+        color: inherit;
+        letter-spacing: -0.01em;
+        font-size: 1.125rem;
+        line-height: 1.32;
+        margin-bottom: -20px;
+    }
+
+    .button-PageC {
+        font-size: 33.5px;
+        padding-bottom: 40px;
+    }
+
+    .copinho {
+        width: 50%;
+        padding: 64px 0px 0px;
+    }
+
+    .copinho-Nu {
+        font-size: 48px;
+    }
+
+    .copinho-Real {
+        font-size: 48px;
+    }
+}
