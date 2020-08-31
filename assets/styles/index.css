@@ -1,6 +1,5 @@
 @import url('../styles/meuRoxinho.css');
 @import url('../styles/calculadora.css');
-<<<<<<< HEAD
 :root{
   --cor-primaria:rgb(138, 5, 190);
 
@@ -8,10 +7,7 @@
   --color-links: #585858;
   --color-hover: #e2c0ef;
     
-=======
-:root {
   --cor-primaria: rgb(138, 5, 190);
->>>>>>> 64c507b6d41f4783034b17c2872da2668e7dc226
 }
 * {
   margin: 0;
@@ -70,7 +66,6 @@ body {
 }
 
 #cartaoInternacional {
-<<<<<<< HEAD
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -229,13 +224,13 @@ body {
   }
 
   /* final do css da header */
+
   
-=======
-  width: 100vw;
+ /* width: 100vw;
   height: 100vh;
   display: flex;
   background-color: #f5f5f5;
-}
+} */
 #imgCartInternacional {
   width: 50%vw;
   height: 50%vh;
@@ -324,4 +319,3 @@ a {
   transform: scalex(1);
 }
 /***************  ACREDITAR FIM ***************/
->>>>>>> 64c507b6d41f4783034b17c2872da2668e7dc226
