@@ -2,6 +2,11 @@
 @import url('../styles/calculadora.css');
 :root{
   --cor-primaria:rgb(138, 5, 190);
+
+  --primary-color: #8a05be;
+  --color-links: #585858;
+  --color-hover: #e2c0ef;
+    
 }
 *{
   margin: 0;
@@ -90,4 +95,132 @@ html,body{
     color: #8A05BE;
     text-decoration: none;
   }
+
+
+ /* css da header */
+  
+  .navegation li a {
+    color: var( --color-links);
+    text-decoration: none;
+    
+  } 
+
+  header {
+      display: flex;
+      width: 100vw;
+      height: 4.5em;
+      background-color: rgb(255, 255, 255);
+      line-height: 1.35;
+      justify-content: space-between;
+      align-items: center;
+
+      font-size: 1.125rem;
+
+      position: fixed;
+
+      font-family: 'Roboto', sans-serif;
+      font-weight: inherit;
+      
+  }
+
+  figure {
+
+    margin-right: -4em;
+    
+  }
+
+  .navegation {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;   
+  }
+
+  .navegation li {
+
+    margin: 0.7em;
+
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .navegation li span {
+    color: var(--primary-color);
+  }
+
+  .navegation li a:hover {
+    color: var(--color-hover);
+  }
+
+  .logoNubank {
+      width: 55px;
+  }
+
+  .acess {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 2em;
+    padding: 2em;
+
+    margin-left: -2em;
+
+  }
+
+  .login-acess {
+
+    text-decoration : none;
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 500;
+    
+
+  }
+  
+  .login-acess:after {
+     content: "";
+     position: absolute;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     border-bottom: 2px solid var(--primary-color);
+     color: var(--primary-color);
+     transform: scaleX(0);
+     transition: 0.3s;
+     transform-origin: left;
+ }
+ 
+  .login-acess:hover:after {
+     transform: scaleX(1);
+ }
+ 
+
+  .login-icon {
+    width: 30px;
+  }
+
+  .register-nubank {
+
+    font-size: 1em;
+  
+    margin: 1em;
+   
+    height: 3em;
+    width: 12em;
+    cursor: pointer;
+    border-radius: 6.25em;
+
+
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+  }
+
+  /* final do css da header */
   
