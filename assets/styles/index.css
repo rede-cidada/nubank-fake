@@ -60,37 +60,73 @@ body {
 }
 
 #cartaoInternacional {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  background-color: #f5f5f5;
-}
-#imgCartInternacional {
-  width: 50%vw;
-  height: 50%vh;
-  margin: auto;
-}
-#CI {
-  font-size: 40px;
-  padding-right: 90px;
-}
-#textoCard {
-  width: 50%;
-  height: 50%;
-  text-align: left;
-  margin-top: 90px;
-  margin-left: 100px;
-  margin-right: 30px;
-}
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f5f5f5;
+  }
+  #imgCartInternacional {
+    width: 50%vw;
+    height: 50%vh;
+    margin: auto;
+  }
+  #CI {
+    font-size: 40px;
+    padding-right: 90px;
+  }
+  #textoCard {
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 30px;
+  }
+  p {
+    /* padding-right: 200px; */
+    font-size: 16px;
+  }
+  a {
+    color: #8A05BE;
+    text-decoration: none;
+  }
 
-p {
-  /* padding-right: 200px; */
-  font-size: 16px;
-}
-a {
-  color: #8a05be;
-  text-decoration: none;
-}
+  /* inicio amado */
+
+  .Amado {
+    width: 100vw;
+    height: 100vh;
+    background: purple;
+    font-family: sans-serif;
+    display: flex;
+    background: center / cover no-repeat
+      url(https://nubank.com.br/_next/static/images/0cccd80ba7e01007f1b07ff41684bec8-man-holding-card@3x.jpg.webp)
+      purple;
+  }
+  
+  .div1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    margin: 20% 5% 20% 55%;
+  }
+  
+  .tituloAmado {
+    font-size: 3em;
+    padding-bottom: 20px;
+  }
+  
+  .paragrafo {
+    font-size: 1.2em;
+  }
+
+  /* fimmm */
+  
+  
+
 
 /*************** ACREDITAR INICIO ***************/
 
