@@ -90,4 +90,35 @@ html,body{
     color: #8A05BE;
     text-decoration: none;
   }
+
+  .Amado {
+    width: 100vw;
+    height: 100vh;
+    background: purple;
+    font-family: sans-serif;
+    display: flex;
+    background: center / cover no-repeat
+      url(https://nubank.com.br/_next/static/images/0cccd80ba7e01007f1b07ff41684bec8-man-holding-card@3x.jpg.webp)
+      purple;
+  }
+  
+  .div1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    margin: 20% 5% 20% 55%;
+  }
+  
+  .tituloAmado {
+    font-size: 3em;
+    padding-bottom: 20px;
+  }
+  
+  .paragrafo {
+    font-size: 1.2em;
+  }
+  
   
